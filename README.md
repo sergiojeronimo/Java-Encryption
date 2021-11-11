@@ -1,3 +1,3 @@
-# Python-Encryption - XOR and CESAR
+# Java-Encryption - XOR and CESAR
 
 ## INTRODUCCIÓN
