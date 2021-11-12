@@ -20,7 +20,7 @@ public String procesoCifrado(String mensaje, int clave){
         return mensajeCifrado;
     }
 ```
-- _textoABinario_: Con esta clase transformamos el texto introducido a binario. Para ello hacemos uso del bucle *for*, en el cual comprobamos la longitud del mensaje con la función *lenght()*. En el bucle, cojemos de la cadena de caracteres el caracter *i* y mediante la clase Integer, usamos la función *toBinaryString* para pasarlo a binario (esto se hace gracias al código ASCII).
+- _textoABinario_: Con esta clase transformamos el texto introducido a binario. Para ello hacemos uso del bucle *for*, en el cual comprobamos la longitud del mensaje con la función *lenght()*. En el bucle, cojemos de la cadena de caracteres el caracter *i* y mediante la clase Integer, usamos la función *toBinaryString* para pasarlo a binario (esto se hace gracias al código ASCII). Al termiar de hacer la cad
 ```
 private String textoABinario(String mensaje){
         String textoEnBinario = "";
