@@ -9,7 +9,7 @@ Actualemte se puede cifrar y descifrar mensajes con XOR y CESAR.
 
 Dentro del proyecto tenemos distintas clases. Explicaremos aquellas que permiten el cifrado y descifrado de mensajes.
 
->_XORCifrado_
+>_XORCifrado_🔒
 
 En esta clase del proyecto hemos empleado 3 funciones, una pública y dos privadas:
 
@@ -82,7 +82,7 @@ private String cifradoXOR(String mensaje, int clave){
     }
 ```
 
->_XORDescifrado_
+>_XORDescifrado_🔓
 
 Dentro de esta clase tenemos 3 funciones, una pública y dos privadas. 
 
@@ -106,7 +106,7 @@ private String binarioAtexto(String mensaje){
     }
 ```
 
->CesarCifrado, CesarDescifrado y DescifradoCesarFB
+>_CesarCifrado🔒, CesarDescifrado🔓 y DescifradoCesarFB🔓_
 
 En la clase *CesarCifrado* solo tenemos una función pública:
 
