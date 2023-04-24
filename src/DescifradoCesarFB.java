@@ -64,7 +64,8 @@ public class DescifradoCesarFB extends  JFrame{
                 CesarDescifrado nuevo = new CesarDescifrado();
                 try {
                     String homeUsuario = System.getProperty("user.home");
-                    String ruta = homeUsuario+"\\Documents\\Comprobar.txt";
+                    String ruta = homeUsuario+"/Documents/Comprobar.txt";
+                    System.out.println(ruta);
                     File file = new File(ruta);
                     if (!file.exists()) {
                         file.createNewFile();
